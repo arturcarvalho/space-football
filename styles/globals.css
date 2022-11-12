@@ -23,12 +23,9 @@ a {
     box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-    html {
-        color-scheme: dark;
-    }
-    body {
-        color: white;
-        background: black;
-    }
+
+/* todo: move to own file closer to table component*/
+
+.ag-cell:not(:first-child) {
+    border-left: 1px dashed rgba(204, 204, 204, .8) !important;
 }

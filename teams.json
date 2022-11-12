@@ -1,6 +1,7 @@
 [{
         "team_name": "Manchester City FC",
         "common_name": "Manchester City",
+        "slug": "manchester-city",
         "wins": 32,
         "wins_home": 18,
         "wins_away": 14,
@@ -11,6 +12,7 @@
     {
         "team_name": "Liverpool FC",
         "common_name": "Liverpool",
+        "slug": "liverpool",
         "wins": 30,
         "wins_home": 17,
         "wins_away": 13,
@@ -21,6 +23,7 @@
     {
         "team_name": "Chelsea FC",
         "common_name": "Chelsea",
+        "slug": "chelsea",
         "wins": 21,
         "wins_home": 12,
         "wins_away": 9,
@@ -31,6 +34,7 @@
     {
         "team_name": "Tottenham Hotspur FC",
         "common_name": "Tottenham Hotspur",
+        "slug": "tottenham-hotspur",
         "wins": 23,
         "wins_home": 12,
         "wins_away": 11,
@@ -41,6 +45,7 @@
     {
         "team_name": "Arsenal FC",
         "common_name": "Arsenal",
+        "slug": "arsenal",
         "wins": 21,
         "wins_home": 14,
         "wins_away": 7,
@@ -51,6 +56,7 @@
     {
         "team_name": "Manchester United FC",
         "common_name": "Manchester United",
+        "slug": "manchester-united",
         "wins": 19,
         "wins_home": 10,
         "wins_away": 9,
@@ -61,6 +67,7 @@
     {
         "team_name": "Wolverhampton Wanderers FC",
         "common_name": "Wolverhampton Wanderers",
+        "slug": "wolverhampton-wanderers",
         "wins": 16,
         "wins_home": 10,
         "wins_away": 6,
@@ -71,6 +78,7 @@
     {
         "team_name": "Everton FC",
         "common_name": "Everton",
+        "slug": "everton",
         "wins": 15,
         "wins_home": 10,
         "wins_away": 5,
@@ -81,6 +89,7 @@
     {
         "team_name": "Leicester City FC",
         "common_name": "Leicester City",
+        "slug": "leicester-city",
         "wins": 15,
         "wins_home": 8,
         "wins_away": 7,
@@ -91,6 +100,7 @@
     {
         "team_name": "West Ham United FC",
         "common_name": "West Ham United",
+        "slug": "west-ham-united",
         "wins": 15,
         "wins_home": 9,
         "wins_away": 6,
@@ -101,6 +111,7 @@
     {
         "team_name": "Watford FC",
         "common_name": "Watford",
+        "slug": "watford",
         "wins": 14,
         "wins_home": 8,
         "wins_away": 6,
@@ -111,6 +122,7 @@
     {
         "team_name": "Crystal Palace FC",
         "common_name": "Crystal Palace",
+        "slug": "crystal-palace",
         "wins": 14,
         "wins_home": 5,
         "wins_away": 9,
@@ -121,6 +133,7 @@
     {
         "team_name": "Newcastle United FC",
         "common_name": "Newcastle United",
+        "slug": "newcastle-united",
         "wins": 12,
         "wins_home": 8,
         "wins_away": 4,
@@ -131,6 +144,7 @@
     {
         "team_name": "AFC Bournemouth",
         "common_name": "AFC Bournemouth",
+        "slug": "afc-bournemouth",
         "wins": 13,
         "wins_home": 8,
         "wins_away": 5,
@@ -141,6 +155,7 @@
     {
         "team_name": "Burnley FC",
         "common_name": "Burnley",
+        "slug": "burnley",
         "wins": 11,
         "wins_home": 7,
         "wins_away": 4,
@@ -151,6 +166,7 @@
     {
         "team_name": "Southampton FC",
         "common_name": "Southampton",
+        "slug": "southampton",
         "wins": 9,
         "wins_home": 5,
         "wins_away": 4,
@@ -161,6 +177,7 @@
     {
         "team_name": "Brighton & Hove Albion FC",
         "common_name": "Brighton & Hove Albion",
+        "slug": "brighton-hove-albion",
         "wins": 9,
         "wins_home": 6,
         "wins_away": 3,
@@ -171,6 +188,7 @@
     {
         "team_name": "Cardiff City FC",
         "common_name": "Cardiff City",
+        "slug": "cardiff-city",
         "wins": 10,
         "wins_home": 6,
         "wins_away": 4,
@@ -181,6 +199,7 @@
     {
         "team_name": "Fulham FC",
         "common_name": "Fulham",
+        "slug": "fulham",
         "wins": 7,
         "wins_home": 6,
         "wins_away": 1,
@@ -191,6 +210,7 @@
     {
         "team_name": "Huddersfield Town FC",
         "common_name": "Huddersfield Town",
+        "slug": "huddersfield-town",
         "wins": 3,
         "wins_home": 2,
         "wins_away": 1,
