@@ -15,9 +15,9 @@ const TeamNameRenderer = (props: ICellRendererParams<Team>) => {
   const link = `teams/${props.data?.slug}` ?? "/";
 
   return (
-    <span>
-      <Link href={link}>{props.value}</Link>
-    </span>
+    <div className="flex">
+      <Link className="text-blue-500 w-full" href={link}>{props.value}</Link>
+    </div>
   );
 };
 
