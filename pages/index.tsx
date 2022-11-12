@@ -1,0 +1,26 @@
+import Head from 'next/head'
+
+export default function Home() {
+  return (
+    <div className="flex flex-col h-full">
+      <Head>
+        <title>Space Football</title>
+        <meta name="description" content="Space Football, but on Earth" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
+      <main className="flex-1">
+        <nav className="bg-blue-300 text-center p-4 text-2xl font-serif uppercase">
+          Space Football
+        </nav>
+      
+table component here
+      
+      </main>
+
+      <footer className="bg-red-300 flex-2 text-center p-4">
+        Built by Artur
+      </footer>
+    </div>
+  )
+}
