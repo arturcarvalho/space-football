@@ -3,8 +3,6 @@ import teams from "../teams.json";
 import TeamsTable from "../components/TeamsTable";
 
 export default function Home() {
-  console.log(teams);
-
   return (
     <div className="flex flex-col h-full">
       <Head>

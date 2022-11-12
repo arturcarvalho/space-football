@@ -1,13 +1,25 @@
 import { useEffect, useState } from "react";
 import { Team } from "../types";
 import { AgGridReact } from "ag-grid-react";
+import Link from "next/link";
 
 import "ag-grid-community/styles/ag-grid.css";
 import "ag-grid-community/styles/ag-theme-alpine.css";
+import { ICellRendererParams } from "ag-grid-community";
 
 interface Props {
   teams: Team[];
 }
+
+const TeamNameRenderer = (props: ICellRendererParams<Team>) => {
+  const link = `teams/${props.data?.slug}` ?? "/";
+
+  return (
+    <span>
+      <Link href={link}>{props.value}</Link>
+    </span>
+  );
+};
 
 export default function TeamsTable(props: Props) {
   const [rowData, setRowData] = useState<Team[]>([]);
@@ -24,6 +36,7 @@ export default function TeamsTable(props: Props) {
       sort: "asc",
       headerName: "Team Name",
       width: 250,
+      cellRenderer: TeamNameRenderer,
     },
     {
       field: "wins",
