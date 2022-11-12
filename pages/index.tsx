@@ -1,6 +1,9 @@
 import Head from 'next/head'
+import teams from "../teams.json";
 
 export default function Home() {
+  console.log(teams);
+  
   return (
     <div className="flex flex-col h-full">
       <Head>
