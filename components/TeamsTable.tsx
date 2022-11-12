@@ -16,7 +16,7 @@ const TeamNameRenderer = (props: ICellRendererParams<Team>) => {
 
   return (
     <div className="flex">
-      <Link className="text-blue-500 w-full" href={link}>{props.value}</Link>
+      <Link className="text-blue-500 font-bold w-full" href={link}>{props.value}</Link>
     </div>
   );
 };
