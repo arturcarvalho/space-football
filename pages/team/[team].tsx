@@ -22,7 +22,7 @@ const Player = (props: Props) => {
 
 const Result = (props: { description: string; num: number }) => {
   return (
-    <div className="flex flex-col rounded mr-3 py-2 pr-4 w-32 shadow bg-neutral-100">
+    <div className="flex flex-col rounded mr-3 py-2 pr-4 w-32 shadow border bg-neutral-50">
       <div className="pl-2 uppercase text-sky-800 font-bold">
         {props.description}
       </div>

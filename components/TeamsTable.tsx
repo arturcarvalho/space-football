@@ -12,7 +12,7 @@ interface Props {
 }
 
 const TeamNameRenderer = (props: ICellRendererParams<Team>) => {
-  const link = `teams/${props.data?.slug}` ?? "/";
+  const link = `team/${props.data?.slug}` ?? "/";
 
   return (
     <div className="flex">
