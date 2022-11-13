@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body,
+#__next {
+    height: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* todo: move to own file closer to table component*/
+
+.ag-cell:not(:first-child) {
+    border-left: 1px dashed rgba(204, 204, 204, 0.8) !important;
+}
+
+.rotate-infinite {
+    animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}

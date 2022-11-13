@@ -1,0 +1,601 @@
+[{
+        "team_name": "Manchester City FC",
+        "common_name": "Manchester City",
+        "slug": "manchester-city",
+        "wins": 32,
+        "wins_home": 18,
+        "wins_away": 14,
+        "draws": 2,
+        "losses": 4,
+        "league_position": 1,
+        "top_players": [{
+                "full_name": "Sergio Aguero",
+                "age": 33,
+                "position": "Forward",
+                "goals_overall": 21
+            },
+            {
+                "full_name": "Raheem Sterling",
+                "age": 27,
+                "position": "Forward",
+                "goals_overall": 17
+            },
+            {
+                "full_name": "Leroy Sané",
+                "age": 26,
+                "position": "Midfielder",
+                "goals_overall": 10
+            }
+        ]
+    },
+    {
+        "team_name": "Liverpool FC",
+        "common_name": "Liverpool",
+        "slug": "liverpool",
+        "wins": 30,
+        "wins_home": 17,
+        "wins_away": 13,
+        "draws": 7,
+        "losses": 1,
+        "league_position": 2,
+        "top_players": [{
+                "full_name": "Mohamed Salah",
+                "age": 29,
+                "position": "Forward",
+                "goals_overall": 22
+            },
+            {
+                "full_name": "Sadio Mané",
+                "age": 29,
+                "position": "Forward",
+                "goals_overall": 22
+            },
+            {
+                "full_name": "Roberto Firmino",
+                "age": 30,
+                "position": "Forward",
+                "goals_overall": 12
+            }
+        ]
+    },
+    {
+        "team_name": "Chelsea FC",
+        "common_name": "Chelsea",
+        "slug": "chelsea",
+        "wins": 21,
+        "wins_home": 12,
+        "wins_away": 9,
+        "draws": 9,
+        "losses": 8,
+        "league_position": 3,
+        "top_players": [{
+                "full_name": "Eden Hazard",
+                "age": 31,
+                "position": "Midfielder",
+                "goals_overall": 16
+            },
+            {
+                "full_name": "Pedro Rodriguez",
+                "age": 34,
+                "position": "Midfielder",
+                "goals_overall": 8
+            },
+            {
+                "full_name": "Ruben Loftus-Cheek",
+                "age": 25,
+                "position": "Midfielder",
+                "goals_overall": 6
+            }
+        ]
+    },
+    {
+        "team_name": "Tottenham Hotspur FC",
+        "common_name": "Tottenham Hotspur",
+        "slug": "tottenham-hotspur",
+        "wins": 23,
+        "wins_home": 12,
+        "wins_away": 11,
+        "draws": 2,
+        "losses": 13,
+        "league_position": 4,
+        "top_players": [{
+                "full_name": "Harry Kane",
+                "age": 28,
+                "position": "Forward",
+                "goals_overall": 17
+            },
+            {
+                "full_name": "Heung-Min Son",
+                "age": 29,
+                "position": "Forward",
+                "goals_overall": 12
+            },
+            {
+                "full_name": "Lucas Rodrigues Moura da Silva",
+                "age": 29,
+                "position": "Midfielder",
+                "goals_overall": 10
+            }
+        ]
+    },
+    {
+        "team_name": "Arsenal FC",
+        "common_name": "Arsenal",
+        "slug": "arsenal",
+        "wins": 21,
+        "wins_home": 14,
+        "wins_away": 7,
+        "draws": 7,
+        "losses": 10,
+        "league_position": 5,
+        "top_players": [{
+                "full_name": "Pierre-Emerick Aubameyang",
+                "age": 32,
+                "position": "Forward",
+                "goals_overall": 22
+            },
+            {
+                "full_name": "Alexandre Lacazette",
+                "age": 30,
+                "position": "Forward",
+                "goals_overall": 13
+            },
+            {
+                "full_name": "Henrikh Mkhitaryan",
+                "age": 32,
+                "position": "Midfielder",
+                "goals_overall": 6
+            }
+        ]
+    },
+    {
+        "team_name": "Manchester United FC",
+        "common_name": "Manchester United",
+        "slug": "manchester-united",
+        "wins": 19,
+        "wins_home": 10,
+        "wins_away": 9,
+        "draws": 9,
+        "losses": 10,
+        "league_position": 6,
+        "top_players": [{
+                "full_name": "Paul Pogba",
+                "age": 28,
+                "position": "Midfielder",
+                "goals_overall": 13
+            },
+            {
+                "full_name": "Romelu Lukaku",
+                "age": 28,
+                "position": "Forward",
+                "goals_overall": 12
+            },
+            {
+                "full_name": "Anthony Martial",
+                "age": 26,
+                "position": "Forward",
+                "goals_overall": 10
+            }
+        ]
+    },
+    {
+        "team_name": "Wolverhampton Wanderers FC",
+        "common_name": "Wolverhampton Wanderers",
+        "slug": "wolverhampton-wanderers",
+        "wins": 16,
+        "wins_home": 10,
+        "wins_away": 6,
+        "draws": 9,
+        "losses": 13,
+        "league_position": 7,
+        "top_players": [{
+                "full_name": "Raúl Alonso Jiménez Rodríguez",
+                "age": 30,
+                "position": "Forward",
+                "goals_overall": 13
+            },
+            {
+                "full_name": "Diogo José Teixeira da Silva",
+                "age": 25,
+                "position": "Midfielder",
+                "goals_overall": 9
+            },
+            {
+                "full_name": "Matt Doherty",
+                "age": 29,
+                "position": "Defender",
+                "goals_overall": 4
+            }
+        ]
+    },
+    {
+        "team_name": "Everton FC",
+        "common_name": "Everton",
+        "slug": "everton",
+        "wins": 15,
+        "wins_home": 10,
+        "wins_away": 5,
+        "draws": 9,
+        "losses": 14,
+        "league_position": 8,
+        "top_players": [{
+                "full_name": "Gylfi Sigurdsson",
+                "age": 32,
+                "position": "Midfielder",
+                "goals_overall": 13
+            },
+            {
+                "full_name": "Richarlison de Andrade",
+                "age": 24,
+                "position": "Forward",
+                "goals_overall": 13
+            },
+            {
+                "full_name": "Dominic Calvert-Lewin",
+                "age": 24,
+                "position": "Forward",
+                "goals_overall": 6
+            }
+        ]
+    },
+    {
+        "team_name": "Leicester City FC",
+        "common_name": "Leicester City",
+        "slug": "leicester-city",
+        "wins": 15,
+        "wins_home": 8,
+        "wins_away": 7,
+        "draws": 7,
+        "losses": 16,
+        "league_position": 9,
+        "top_players": [{
+                "full_name": "Jamie Vardy",
+                "age": 34,
+                "position": "Forward",
+                "goals_overall": 18
+            },
+            {
+                "full_name": "James Maddison",
+                "age": 25,
+                "position": "Midfielder",
+                "goals_overall": 7
+            },
+            {
+                "full_name": "Demarai Gray",
+                "age": 25,
+                "position": "Midfielder",
+                "goals_overall": 4
+            }
+        ]
+    },
+    {
+        "team_name": "West Ham United FC",
+        "common_name": "West Ham United",
+        "slug": "west-ham-united",
+        "wins": 15,
+        "wins_home": 9,
+        "wins_away": 6,
+        "draws": 7,
+        "losses": 16,
+        "league_position": 10,
+        "top_players": [{
+                "full_name": "Marko Arnautović",
+                "age": 32,
+                "position": "Forward",
+                "goals_overall": 10
+            },
+            {
+                "full_name": "Felipe Anderson Pereira Gomes",
+                "age": 28,
+                "position": "Midfielder",
+                "goals_overall": 9
+            },
+            {
+                "full_name": "Javier Hernandez",
+                "age": 33,
+                "position": "Forward",
+                "goals_overall": 7
+            }
+        ]
+    },
+    {
+        "team_name": "Watford FC",
+        "common_name": "Watford",
+        "slug": "watford",
+        "wins": 14,
+        "wins_home": 8,
+        "wins_away": 6,
+        "draws": 8,
+        "losses": 16,
+        "league_position": 11,
+        "top_players": [{
+                "full_name": "Gerard Deulofeu",
+                "age": 27,
+                "position": "Forward",
+                "goals_overall": 10
+            },
+            {
+                "full_name": "Troy Deeney",
+                "age": 33,
+                "position": "Forward",
+                "goals_overall": 9
+            },
+            {
+                "full_name": "Andre Gray",
+                "age": 30,
+                "position": "Forward",
+                "goals_overall": 7
+            }
+        ]
+    },
+    {
+        "team_name": "Crystal Palace FC",
+        "common_name": "Crystal Palace",
+        "slug": "crystal-palace",
+        "wins": 14,
+        "wins_home": 5,
+        "wins_away": 9,
+        "draws": 7,
+        "losses": 17,
+        "league_position": 12,
+        "top_players": [{
+                "full_name": "Luka Milivojević",
+                "age": 30,
+                "position": "Midfielder",
+                "goals_overall": 12
+            },
+            {
+                "full_name": "Wilfried Zaha",
+                "age": 29,
+                "position": "Midfielder",
+                "goals_overall": 10
+            },
+            {
+                "full_name": "Andros Townsend",
+                "age": 30,
+                "position": "Midfielder",
+                "goals_overall": 6
+            }
+        ]
+    },
+    {
+        "team_name": "Newcastle United FC",
+        "common_name": "Newcastle United",
+        "slug": "newcastle-united",
+        "wins": 12,
+        "wins_home": 8,
+        "wins_away": 4,
+        "draws": 9,
+        "losses": 17,
+        "league_position": 13,
+        "top_players": [{
+                "full_name": "Ayoze Perez",
+                "age": 28,
+                "position": "Forward",
+                "goals_overall": 12
+            },
+            {
+                "full_name": "Rondon",
+                "age": 32,
+                "position": "Forward",
+                "goals_overall": 11
+            },
+            {
+                "full_name": "Fabian Schär",
+                "age": 30,
+                "position": "Defender",
+                "goals_overall": 4
+            }
+        ]
+    },
+    {
+        "team_name": "AFC Bournemouth",
+        "common_name": "AFC Bournemouth",
+        "slug": "afc-bournemouth",
+        "wins": 13,
+        "wins_home": 8,
+        "wins_away": 5,
+        "draws": 6,
+        "losses": 19,
+        "league_position": 14,
+        "top_players": [{
+                "full_name": "Callum Wilson",
+                "age": 29,
+                "position": "Forward",
+                "goals_overall": 14
+            },
+            {
+                "full_name": "Joshua King",
+                "age": 29,
+                "position": "Forward",
+                "goals_overall": 12
+            },
+            {
+                "full_name": "David Brooks",
+                "age": 24,
+                "position": "Forward",
+                "goals_overall": 7
+            }
+        ]
+    },
+    {
+        "team_name": "Burnley FC",
+        "common_name": "Burnley",
+        "slug": "burnley",
+        "wins": 11,
+        "wins_home": 7,
+        "wins_away": 4,
+        "draws": 7,
+        "losses": 20,
+        "league_position": 15,
+        "top_players": [{
+                "full_name": "Ashley Barnes",
+                "age": 32,
+                "position": "Forward",
+                "goals_overall": 12
+            },
+            {
+                "full_name": "Chris Wood",
+                "age": 30,
+                "position": "Forward",
+                "goals_overall": 10
+            },
+            {
+                "full_name": "Dwight McNeil",
+                "age": 22,
+                "position": "Forward",
+                "goals_overall": 3
+            }
+        ]
+    },
+    {
+        "team_name": "Southampton FC",
+        "common_name": "Southampton",
+        "slug": "southampton",
+        "wins": 9,
+        "wins_home": 5,
+        "wins_away": 4,
+        "draws": 12,
+        "losses": 17,
+        "league_position": 16,
+        "top_players": [{
+                "full_name": "Daniel William John Ings",
+                "age": 29,
+                "position": "Forward",
+                "goals_overall": 7
+            },
+            {
+                "full_name": "James Ward-Prowse",
+                "age": 27,
+                "position": "Midfielder",
+                "goals_overall": 7
+            },
+            {
+                "full_name": "Nathan Redmond",
+                "age": 27,
+                "position": "Midfielder",
+                "goals_overall": 6
+            }
+        ]
+    },
+    {
+        "team_name": "Brighton & Hove Albion FC",
+        "common_name": "Brighton & Hove Albion",
+        "slug": "brighton-hove-albion",
+        "wins": 9,
+        "wins_home": 6,
+        "wins_away": 3,
+        "draws": 9,
+        "losses": 20,
+        "league_position": 17,
+        "top_players": [{
+                "full_name": "Glenn Murray",
+                "age": 38,
+                "position": "Forward",
+                "goals_overall": 13
+            },
+            {
+                "full_name": "Shane Duffy",
+                "age": 30,
+                "position": "Defender",
+                "goals_overall": 5
+            },
+            {
+                "full_name": "Florin Andone",
+                "age": 28,
+                "position": "Forward",
+                "goals_overall": 3
+            }
+        ]
+    },
+    {
+        "team_name": "Cardiff City FC",
+        "common_name": "Cardiff City",
+        "slug": "cardiff-city",
+        "wins": 10,
+        "wins_home": 6,
+        "wins_away": 4,
+        "draws": 4,
+        "losses": 24,
+        "league_position": 18,
+        "top_players": [{
+                "full_name": "Bobby Reid",
+                "age": 28,
+                "position": "Midfielder",
+                "goals_overall": 5
+            },
+            {
+                "full_name": "Víctor Camarasa",
+                "age": 27,
+                "position": "Midfielder",
+                "goals_overall": 5
+            },
+            {
+                "full_name": "Callum Paterson",
+                "age": 27,
+                "position": "Defender",
+                "goals_overall": 4
+            }
+        ]
+    },
+    {
+        "team_name": "Fulham FC",
+        "common_name": "Fulham",
+        "slug": "fulham",
+        "wins": 7,
+        "wins_home": 6,
+        "wins_away": 1,
+        "draws": 5,
+        "losses": 26,
+        "league_position": 19,
+        "top_players": [{
+                "full_name": "Aleksandar Mitrović",
+                "age": 27,
+                "position": "Forward",
+                "goals_overall": 11
+            },
+            {
+                "full_name": "André Schürrle",
+                "age": 31,
+                "position": "Midfielder",
+                "goals_overall": 6
+            },
+            {
+                "full_name": "Ryan Guno Babel",
+                "age": 35,
+                "position": "Forward",
+                "goals_overall": 5
+            }
+        ]
+    },
+    {
+        "team_name": "Huddersfield Town FC",
+        "common_name": "Huddersfield Town",
+        "slug": "huddersfield-town",
+        "wins": 3,
+        "wins_home": 2,
+        "wins_away": 1,
+        "draws": 7,
+        "losses": 28,
+        "league_position": 20,
+        "top_players": [{
+                "full_name": "Karlan Ahearne-Grant",
+                "age": 24,
+                "position": "Forward",
+                "goals_overall": 4
+            },
+            {
+                "full_name": "Aaron Mooy",
+                "age": 31,
+                "position": "Midfielder",
+                "goals_overall": 3
+            },
+            {
+                "full_name": "Mathias Jattah-Njie Jørgensen",
+                "age": 31,
+                "position": "Defender",
+                "goals_overall": 3
+            }
+        ]
+    }
+]
