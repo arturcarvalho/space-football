@@ -1,6 +1,7 @@
 // based on https://wattenberger.com/blog/react-and-d3
 
 import { StackedBarChart } from "../components/StackedBarChart";
+import { getTeams } from "../dataService";
 
 const GROUPED_BAR_CHART_DATA: any[] = [
   { label: "Arsenal", values: [18, 14] },
@@ -9,9 +10,15 @@ const GROUPED_BAR_CHART_DATA: any[] = [
 ];
 
 export default function Chart() {
+  const stackedChartData = getTeams().map((t: any) => {
+    return {
+      label: t.team_name,
+      values: [t.wins_home, t.wins_away]
+    };
+  });
   return (
     <div className="px-4">
-      <StackedBarChart data={GROUPED_BAR_CHART_DATA} />
+      <StackedBarChart data={stackedChartData} />
     </div>
   );
 }

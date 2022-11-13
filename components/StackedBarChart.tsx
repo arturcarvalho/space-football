@@ -24,9 +24,9 @@ export function StackedBarChart({ data }: Props) {
     .join("\n");
   const csv = d3.csvParse([header, body].join("\n"));
 
-  const margin = { top: 10, right: 0, bottom: 20, left: 30 };
-  const width = 500 - margin.left - margin.right;
-  const height = 300 - margin.top - margin.bottom;
+  const margin = { top: 10, right: 0, bottom: 200, left: 30 };
+  const width = 960 - margin.left - margin.right;
+  const height = 500 - margin.top - margin.bottom;
 
   const subgroups = header.split(",");
   const labels = csv.map((data) => data.label || "");
@@ -46,7 +46,13 @@ export function StackedBarChart({ data }: Props) {
 
   useEffect(() => {
     if (axisBottomRef.current) {
-      d3.select(axisBottomRef.current).call(d3.axisBottom(scaleX));
+      d3.select(axisBottomRef.current)
+        .call(d3.axisBottom(scaleX))
+        .selectAll("text")
+        .style("text-anchor", "end")
+        .attr("dx", "-.8em")
+        .attr("dy", ".15em")
+        .attr("transform", "rotate(-50)");
     }
 
     if (axisLeftRef.current) {
@@ -57,13 +63,12 @@ export function StackedBarChart({ data }: Props) {
   return (
     <div>
       <div className="pb-8">
-
-      <div className="flex items-center">
-        <span className="bg-green-600 block w-6 h-4 mr-2" /> Wins at home
-      </div>
-      <div className="flex items-center">
-        <span className="bg-green-400 block w-6 h-4 mr-2" /> Wins away
-      </div>
+        <div className="flex items-center">
+          <span className="bg-green-600 block w-6 h-4 mr-2" /> Wins at home
+        </div>
+        <div className="flex items-center">
+          <span className="bg-green-400 block w-6 h-4 mr-2" /> Wins away
+        </div>
       </div>
 
       <svg
