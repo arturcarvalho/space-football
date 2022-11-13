@@ -1,5 +1,4 @@
 import teams from "./teams.json";
-import { Team } from "./types";
 
 const totalGames = 38;
 const homeGames = totalGames / 2;
