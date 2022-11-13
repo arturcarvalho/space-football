@@ -26,7 +26,7 @@ const Result = (props: { description: string; num: number }) => {
       <div className="pl-2 uppercase text-sky-800 font-bold">
         {props.description}
       </div>
-      <div className="pl-2  text-sky-900">{props.num}</div>
+      <div className="pl-2 text-sky-900">{props.num}</div>
     </div>
   );
 };
@@ -46,7 +46,7 @@ const TeamPage = () => {
         <Result description="Losses" num={t.losses} />
       </div>
 
-      <h2 className="text-sky-900 text-2xl pt-8">Top Players</h2>
+      <h2 className="text-sky-900 text-2xl pt-8">Top Scorers</h2>
       <div className="py-6">
         {t?.top_players.map((p, idx) => {
           return <Player key={idx} player={p} position={idx + 1} />;
