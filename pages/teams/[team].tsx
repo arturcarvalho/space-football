@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import teams from "../../teams.json";
+import { getTeams } from "../../dataService";
 import { Player, Team } from "../../types";
 
 interface Props {
@@ -31,10 +31,23 @@ const Result = (props: { description: string; num: number }) => {
   );
 };
 
+// todo: make it more strict
+function isTeam(value: any): value is Team {
+  
+  if (value === undefined) return false;
+  return (
+    "wins" in value &&
+    "draws" in value &&
+    "losses" in value &&
+    "top_players" in value
+  );
+}
+
 const TeamPage = () => {
   const router = useRouter();
 
-  const t = (teams as Team[]).find((t) => t.slug === router.query.team) as Team;
+  const t = (getTeams() as Team[]).find((t) => t.slug === router.query.team);
+  if(!isTeam(t)) return <div>Error</div>;
 
   return (
     <div className="px-4">
