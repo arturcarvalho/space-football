@@ -15,6 +15,7 @@
     "@types/react-dom": "18.0.8",
     "ag-grid-community": "^28.2.1",
     "ag-grid-react": "^28.2.1",
+    "d3": "^7.6.1",
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.3",
     "next": "13.0.3",
@@ -23,6 +24,7 @@
     "typescript": "4.8.4"
   },
   "devDependencies": {
+    "@types/d3": "^7.4.0",
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.19",
     "tailwindcss": "^3.2.4"
