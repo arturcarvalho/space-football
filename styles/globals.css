@@ -26,5 +26,15 @@ a {
 /* todo: move to own file closer to table component*/
 
 .ag-cell:not(:first-child) {
-    border-left: 1px dashed rgba(204, 204, 204, .8) !important;
+    border-left: 1px dashed rgba(204, 204, 204, 0.8) !important;
+}
+
+.rotate-infinite {
+    animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
 }

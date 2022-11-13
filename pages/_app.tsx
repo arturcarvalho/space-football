@@ -19,7 +19,7 @@ export default function App({ Component, pageProps }: AppProps) {
           <Link href="/" className="shadow flex items-center p-4">
             <Image
               src="/logo.svg"
-              className="mr-2"
+              className="mr-2 rotate-infinite"
               width="40"
               height="40"
               alt="logo"
@@ -33,7 +33,7 @@ export default function App({ Component, pageProps }: AppProps) {
           <div className="pl-2 py-1 flex bg-sky-800">
             <Link href="/" className="uppercase p-2 text-sky-100">Home</Link>
             <Link href="/chart" className="uppercase p-2 text-sky-100">Chart</Link>
-            <Link href="/globe" className="uppercase p-2 text-sky-100">Globe</Link>
+            {/* <Link href="/globe" className="uppercase p-2 text-sky-100">Globe</Link> */}
           </div>
         </nav>
 

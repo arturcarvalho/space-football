@@ -1,6 +1,6 @@
-import teams from "../teams.json";
 import TeamsTable from "../components/TeamsTable";
+import { getTeams } from "../dataService";
 
 export default function Home() {
-  return <TeamsTable teams={teams} />;
+  return <TeamsTable teams={getTeams()} />;
 }
